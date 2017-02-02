@@ -1,0 +1,203 @@
+body {
+  background-color: #ECECEC;
+  font-family: 'Poiret One', cursive;
+  margin: 0;
+  height: 708px;
+  width: 1440px;
+}
+
+hr {
+  border: 1px solid #000;
+  margin: 3% auto;
+  width: 80%;
+}
+nav {
+  background-color: #ECECEC;
+  font-family: 'aria-hidden',cursive;
+  height: 60px;
+  color: #000000;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+nav > a {
+  font-family: 'aria-hidden', cursive;
+  font-size: 26px;
+  font-weight: 700;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 10px;
+}
+
+nav ul {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+
+nav li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav li > a {
+  text-decoration: none;
+}
+
+nav li > a:hover,
+nav li > a:focus {
+  color: #ff0000;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  color: #000000;
+}
+
+header p {
+  padding-top: 0;
+  text-align: center;
+}
+
+header img {
+  padding: 0 20px 20px;
+  text-align: center;
+  width: 481px;
+  height: 120px;
+  left: 5px;
+  right: 5px;
+  bottom: 229px;
+  top: 120px;
+
+}
+
+.main-feature {
+  background-color: #ECECEC;
+  height: 96px;
+  width: 497px;
+  top: 266px;
+  bottom: 362px;
+}
+
+.main-feature div {
+  font-size: 2px;
+  margin: 30% 10% 15%;
+}
+
+.main-feature h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  height: 65px;
+  margin: 40px 0  0 0;
+  padding: 98px 0 0 0;
+  color: #ff0000;
+}
+
+.main-feature p {
+  font-size: 12px;
+  line-height: 30px;
+  margin: 20px;
+  padding: 0 0 0 30px;
+  width: 90%;
+  text-align: left;
+}
+
+.side-feature {
+  background-color: #ECECEC;
+  float: right;
+  width: 50%;
+}
+
+.side-feature div {
+  font-size: 14px;
+}
+
+.side-feature h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  height: 15px;
+  margin: 0 0 0px 20px;
+  padding: 0 0 40px 20px;
+  color: #ff0000;
+  text-align: center;
+
+}
+
+.side-feature p {
+  font-size: 12px;
+  line-height: 30px;
+  margin: 0 0 140px 180px;
+  padding: 0 100px 80px 60px;
+  width: 90%;
+  text-align: left;
+}
+
+.bottom-feature {
+  display: inline-block;
+}
+
+.bottom-feature ul {
+  display: inline-block;
+  float: left;
+  margin-right: 0;
+}
+
+.bottom-feature li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.bottom-feature a {
+  display: inline-block;
+  padding: 1px 2px;
+  margin-right: 0;
+}
+
+  h2 {
+  text-align: center;
+  color: #ff0000;
+}
+
+footer {
+  background-color: #000000;
+  font-size: 25px;
+  padding: 0 0 300px 0;
+}
+
+.contact {
+  float: left;
+  font-size: 15px;
+}
+
+.contact input {
+  font-size: 20px;
+}
+
+.contact h2 {
+  color: #ff0000;
+  text-align: left;
+  padding: 2px;
+}
+
+.contact p a {
+  color: #fff;
+  padding: 15px;
+
+}
+
+.social-icon {
+  float: right;
+  font-size: 15px;
+}
